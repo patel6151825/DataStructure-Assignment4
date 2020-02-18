@@ -30,6 +30,6 @@ public class RunProgram {
 		CarService service = new CarService();
 
 		// call to method to do ticket service for cars
-		service.ticketService((Queue<Car>) cars);
+		service.ticketService(cars);
 	}
 }
