@@ -1,11 +1,13 @@
 package com.johnabbott.assignment4.domain;
 
-import java.util.Stack;
+import java.util.Queue;
 
 public class CarService {
 
-	public void doTicketService(Stack<Car> carStack) {
+	// method to do ticket service for cars
+	public void ticketService(Queue<Car> cars) {
 
-		carStack.stream().forEach(car -> System.out.println("Make : " + car.getMake() + ", Model : " + car.getModel()));
+		// printing make and model for each car
+		cars.stream().forEach(car -> System.out.println("Make : " + car.getMake() + ", Model : " + car.getModel()));
 	}
 }

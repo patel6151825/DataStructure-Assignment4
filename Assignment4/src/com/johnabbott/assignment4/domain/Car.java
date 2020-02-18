@@ -5,7 +5,8 @@ public class Car {
 	private String model;
 	private String make;
 	private Integer Year;
-	
+
+	// constructor
 	public Car(String model, String make, Integer year) {
 		super();
 		this.model = model;
@@ -13,6 +14,7 @@ public class Car {
 		Year = year;
 	}
 
+	// getter and setters
 	public String getModel() {
 		return model;
 	}
